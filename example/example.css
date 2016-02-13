@@ -1,0 +1,25 @@
+.wrapper {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+
+.btn {
+    border: 1px solid #eee;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #155C79;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    line-height: 20px;
+}

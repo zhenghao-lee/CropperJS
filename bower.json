@@ -1,0 +1,18 @@
+{
+  "name": "ImageEditor",
+  "homepage": "https://",
+  "authors": [
+    "lizhenghao <zhenghao.li.cn@outlook.com>"
+  ],
+  "description": "canvas based image editor.",
+  "main": "src/ImageEditor.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

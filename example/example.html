@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8"></meta>
+    <link rel="stylesheet" type="text/css" href="example.css" />
+    <script src="../src/ImageEditor.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper"></div>
+    <footer>
+        <span>预览：</span>
+        <br>
+        <br>
+        <canvas hasDataHandler="previewCanvas"></canvas>
+        <br>
+        <br>
+        <a class="btn" hasDataHandler="getResultPositionBtn">获取裁剪坐标</a>
+        <br>
+        <br>
+        <span hasDataHandler="outputSpan"></span>
+        <br>
+        <br>
+        <a class="btn" hasDataHandler="getResultCanvasBtn">获取裁剪画布</a>
+        <br>
+        <br>
+        <div hasDataHandler="previewCanvasHolder"></div>
+    </footer>
+    <script src="example.js"></script>
+</body>
+
+</html>
